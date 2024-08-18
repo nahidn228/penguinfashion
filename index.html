@@ -36,7 +36,17 @@
   <body class="font-roboto">
     <header class="bg-[#FFFBF0] pl-4">
       <!-- navbar start -->
-      <nav></nav>
+      <nav
+        class="w-5/6 mx-auto  flex-col space-y-4 md:flex-row  md:flex md:items-center md:justify-between pt-10 mb-10"
+      >
+        <img class="w-50 h-10" src="./images/logo.png" alt="" />
+        <div class="space-x-6  md:visible ">
+          <a class="hover:text-green-500" href="#">Home</a>
+          <a class="hover:text-green-500" href="#">Product</a>
+          <a class="hover:text-green-500" href="#">About Us</a>
+          <a class="hover:text-green-500" href="#">Contact Us</a>
+        </div>
+      </nav>
       <!-- banner start -->
       <div class="md:flex md:items-center md:justify-around">
         <div>
@@ -44,12 +54,12 @@
             <span class="text-orange-500">Be the Penguins</span> <br />
             <span class="text-stone-800"> of Winter</span>
           </h2>
-          <p class="mt-2">
+          <p class="mt-2 text-gray-500">
             Lorem Ipsum is simply dummy text of the printing <br />
             and typesetting industry.
           </p>
           <button
-            class="bg-green-500 py-4 px-8 rounded-xl text-white font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] mt-4"
+            class="bg-green-500 py-3 px-6 rounded-xl text-white font-medium bg-gradient-to-r from-[#A4BC46] to-[#85A019] mt-4"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -228,9 +238,11 @@
       </section>
       <!-- Shopping section -->
       <section class="mb-10 md:px-10">
-        <div class="grid grid-cols-1 lg:grid-cols-2 justify-center items-center">
+        <div
+          class="grid grid-cols-1 lg:grid-cols-2 justify-center items-center gap-4"
+        >
           <!-- about text section -->
-          <div class="w-4/5">
+          <div class=" md:w-4/5">
             <!-- Card 1 -->
             <div
               class="flex justify-center items-center gap-4 drop-shadow-lg rounded-lg bg-slate-50 p-4 mb-5"
